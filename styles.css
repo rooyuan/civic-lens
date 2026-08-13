@@ -102,14 +102,11 @@ body.dark-mode {
 	width: 25%;
 	height: 1.5em;
 	line-height: 1.3em;
+  z-index: 1000;
 }
 
 /* ///ADD/// Navigation Styles */
-header {
-  background-color: var(--blue-bulletin);
-  color: var(--watchdog-white);
-  padding: 1.5rem;
-}
+
 
 nav {
   display: flex;
@@ -132,7 +129,11 @@ nav a:focus {
 }
 
 /* ///ADD/// Global Layout Styles */
-
+header {
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  padding: 1.5rem;
+}
 
 /* ///ADD/// Global Text Styles */
 
